@@ -1,0 +1,31 @@
+/* add your CSS here */
+.card_container{
+  	width: 320px;
+  	border: thin solid rgb(153, 153, 153);
+  	background-color: lightblue;
+}
+.card_title{
+	margin: 10px;
+}
+img {
+	display: block;
+	margin: 10px auto;
+}
+.information_container{
+	width: 290px;
+	border: thin solid rgb(153, 153, 153);
+	margin: 10px auto;
+	padding: 5px;
+	font-size: smaller;
+	background-color: white;
+}
+.emphasis{
+	font-style: italic;
+}
+.list_item_container{
+	padding: 0;
+	list-style-type: none;
+}
+.label{
+	font-weight: bold;
+}
