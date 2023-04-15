@@ -5,7 +5,7 @@
 # !/usr/bin/env python3
 
 """This program plays a game of Rock, Paper, Scissors between two Players,
-and reports both Player's scores each round."""
+and reports both Player's scores after each round."""
 import random
 import inspect
 import sys
@@ -144,7 +144,7 @@ class CyclePlayer(Player):
 
     def move(self):
         # Set self.move to the next move in the list of valid moves
-        # Start at the begining when we get to the end of the list
+        # Start at the beginning when we get to the end of the list
         self.my_move = moves[(moves.index(self.my_move) + 1) % len(moves)]
         return self.my_move
 
