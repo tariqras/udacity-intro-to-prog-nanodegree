@@ -19,7 +19,7 @@ def intro():
     print_pause("A violent earthquake has just ended.", SHORT_DELAY)
     print_pause("You are sitting in a vehicle stopped at a crossroads."
                 "\n", SHORT_DELAY)
-    print("Your partner Valriya, who is driving, says,\n")
+    print("Your partner Claudia, who is driving, says,\n")
     print_pause('"We\'d better get going...'
                 'We need to get north to Nothyp.', SHORT_DELAY)
     print_pause('Maybe we will find some useful cargo '
@@ -145,7 +145,7 @@ def at_nothyp(items):
 def check_cargo(items):
 
     if not items:
-        print_pause('Valriya says, "We don\'t have any useful cargo.\n'
+        print_pause('Claudia says, "We don\'t have any useful cargo.\n'
                     'Maybe we can find some in Ravenholm or Mirkwood"\n', 0.5)
 
 
@@ -163,7 +163,7 @@ def drive(items, routes):
         available_directions.append(route[1].lower())
 
     if items:
-        print('\nValriya says, "We have to get to Nothyp"')
+        print('\nClaudia says, "We have to get to Nothyp"')
 
     while not is_valid_response(direction, available_directions):
         print("Enter one of the following letters to choose a direction:")
